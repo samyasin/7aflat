@@ -11,10 +11,8 @@
         <link rel="stylesheet" href="css/font-awesome.min.css"> 
         <link rel="stylesheet" href="css/main.css">
         <script src="js/modernizr-2.6.2.min.js"></script>
-
     </head>
     <body>
-
         <header id="header">
             <div class="container">
                 <div class="row">
