@@ -7,7 +7,7 @@ if (isset($_POST['submit'])) {
     $userModel->password    = $_POST['password'];
     $userModel->email       = $_POST['email'];
     $userModel->country     = $_POST['country'];
-    $userModel->accout_type = $_POST['accout_type'];
+    $userModel->accout_type = $_POST['account_type'];
     if($userModel->check($_POST['email'])){        
         header("location:join.php?create=0");
     }else{
